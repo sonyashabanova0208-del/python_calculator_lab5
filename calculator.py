@@ -6,8 +6,8 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
-    temp = a * b
-    return temp
+    result = a * b # Новое имя переменной
+    return result
 
 def divide(a, b):
     if b == 0:
