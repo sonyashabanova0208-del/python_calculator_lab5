@@ -16,5 +16,8 @@ def test_divide_by_zero():
 def test_power():
     assert calculator.power(2, 3) == 8
 
+def test_sqrt():
+    assert calculator.sqrt(9) == 3
+    
 def test_bad_multiply():
     assert calculator.multiply(3, 3) == 9   
