@@ -6,7 +6,7 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
-    temp = a * b
+    temp = a * b # Умножение в main
     return temp
 
 def divide(a, b):
