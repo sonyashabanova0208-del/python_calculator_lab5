@@ -14,6 +14,9 @@ def divide(a, b):
         raise ValueError("На ноль делить нельзя!")
     return a / b
 
+def power(a, b):
+    return a ** b
+
 if __name__ == "__main__":
     print("Калькулятор запущен!")
     x = 10
