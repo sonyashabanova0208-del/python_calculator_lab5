@@ -6,8 +6,8 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
-    temp = a * b # Умножение в conflict-branch
-    return temp
+    result = a * b # Умножение в conflict-branch
+    return result
 
 def divide(a, b):
     if b == 0:
